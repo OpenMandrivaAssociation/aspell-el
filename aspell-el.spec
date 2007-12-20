@@ -14,6 +14,7 @@ Group:         System/Internationalization
 Source:        ftp://ftp.gnu.org/aspell/aspell-%{languagecode}-%{src_ver}.tar.bz2
 URL:           http://aspell.sourceforge.net/
 License:       GPL
+BuildRoot:     %{_tmppath}/%{name}-%{version}-root
 Provides: spell-el
 
 BuildRequires: aspell >= 0.50
